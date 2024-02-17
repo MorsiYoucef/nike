@@ -14,12 +14,12 @@ import Nav from './components/Nav'
 function App() {
   return (
     <main className="relative">
-      <Nav />
-      {/* <section className="xl:padding-1 wide:padding-r padding-b">
+      <section className="">
+        <Nav />
         <Hero />
       </section>
       <section className="padding">
-        <PopularProcucts />
+        <PopularProducts />
       </section>
       <section className="padding">
         <SuperQuality />
@@ -27,6 +27,12 @@ function App() {
       <section className="padding">
         <Services />
       </section>
+      {/* <section className="xl:padding-1 wide:padding-r padding-b">
+        <Hero />
+      </section>
+      
+      
+      
       <section className="padding">
         <SpecialOffer />
       </section>
