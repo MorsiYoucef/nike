@@ -47,7 +47,7 @@ const Hero = () => {
           className="object-contain"
         />
       </div>
-      <div className=" flex sm:gap-6 absolute -bottom-[-62%] ml-[750px] ">
+      <div className=" flex sm:gap-6 absolute -bottom-[-83%] ml-[750px] ">
         {shoes.map((shoe) => (
           <div key={shoe}>
             <ShoeCard

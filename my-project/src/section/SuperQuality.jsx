@@ -2,9 +2,9 @@ import Button from '../components/Button'
 
 const SuperQuality = () => {
   return (
-    <div className="grid grid-cols-2 relative p-16">
+    <div className=" flex flex-row justify-center items-center gap-10 ">
       <div>
-        <h1 className="mt-10 font-palanquin text-8xl max-sm: text-[52px] max-sm:leading-[82] font-bold max-w-[550px]">
+        <h1 className="mt-10 font-palanquin text-[50px]  font-bold max-w-[550px]">
           We provide you
           <span className=" text-coral-red"> Super Quality </span>
           Shoes

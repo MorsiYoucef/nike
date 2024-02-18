@@ -3,7 +3,7 @@ import { services } from '../constants'
 
 const Services = () => {
   return (
-    <div className=" flex flex-row gap-16 relative left-16">
+    <div className=" flex flex-row gap-16 justify-center items-center">
       {services.map((service) => (
         <ServiceCard key={service.label} {...service} />
       ))}
